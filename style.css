@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+  color:white;
+}
+
+svg{
+    background-color: black;
+}
+
+html {
+  font-family: monospace, monospace;
+  font-size: 1.1em;
+}
+
+hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin:40px auto 70px auto;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.tooltip {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  background-color: #ccc;
+  border: 5px solid #999;
+  padding: 35px;
+}
+
+.tooltip p {
+  margin: 0 0 5px;
+  padding: 0;
+  text-align: center;
+}
+
+.tooltip ol {
+  margin: 0;
+  padding: 0 15px;
+}
+
+#checkboxes {
+  display: inline-block;
+  margin:150px;
+  vertical-align: top;
+}
+
